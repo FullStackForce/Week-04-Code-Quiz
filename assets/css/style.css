@@ -15,21 +15,11 @@ header {
 }
 
   .quiz-container {
-    height: 350px;
+    height: 250px;
     width: 100%;
     padding: 20px;
-    margin: 20px 0px 20px 0px;
-    position: relative;
-    font-size: 18px;
-    letter-spacing: 1px;
-  }
-  
-  .end-container {
-    height: 350px;
-    width: 500px;
-    padding: 20px;
-    margin: 20px 0px 20px 0px;
-    position: relative;
+    margin: 0 auto;
+    clear: both;
     font-size: 18px;
     letter-spacing: 1px;
   }
@@ -92,11 +82,14 @@ header {
     letter-spacing: 1px;
   }
   
- 
-  input {
+  input[type=text], input[type=email], textarea {
+    height: 50px !important;
+    width: 100%;
+    margin-top: 5px !important;
+    border-radius: 3px;
+    padding: 0 10px;
     font-size: 18px;
-    height: 35px;
-    width: 225px;
+    border: 1px solid #ddd;
   }
   
   h1, h3, h5 {
@@ -143,6 +136,7 @@ header {
   .btn-primary:hover {
     background-color: #25a2b7;
   }
+
   
   .slide {
     position: absolute;
